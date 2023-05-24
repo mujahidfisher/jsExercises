@@ -39,3 +39,18 @@
 // code =
 // let fullName = 'Mujahid'
 // console.log(fullName);
+
+let information = {
+    firstName: 'Mujahid',
+    lastName: 'Fisher',
+    age: 18,
+    listofsubjects: 'English, afrikaans, Maths lit, history, Life science, life orientation, consumers',
+    address: {
+        streetNumber: 3,
+        streetName: 'Clyde Street',
+        suburb: 'Woodstock',
+        countryName: 'South Africa'
+    }
+}
+
+console.log(information);
