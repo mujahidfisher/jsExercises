@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15rem;
+    text-align: center;
+    background-image: radial-gradient(circle, #3a5452, #324f4c, #2a4947, #224441, #1a3f3c, #194b47, #175853, #12655f, #148981, #13afa4, #0dd6c9, #00ffef);
+    background-repeat: no-repeat;
+    height: 35rem;
+}
+
+.formplace {
+    border: black 3px solid;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
