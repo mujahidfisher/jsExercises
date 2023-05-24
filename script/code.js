@@ -1,3 +1,4 @@
+// Q1
 //1 Variable
 
 // A variable is some sort of container that stores data and data values. A variable is declared with let or var or const which is then followed by a keyword. 
@@ -40,17 +41,22 @@
 // let fullName = 'Mujahid'
 // console.log(fullName);
 
-let information = {
-    firstName: 'Mujahid',
-    lastName: 'Fisher',
-    age: 18,
-    listofsubjects: 'English, afrikaans, Maths lit, history, Life science, life orientation, consumers',
-    address: {
-        streetNumber: 3,
-        streetName: 'Clyde Street',
-        suburb: 'Woodstock',
-        countryName: 'South Africa'
-    }
-}
+//================================================================================================================//
+// Q2
+// let information = {
+//     firstName: 'Mujahid',
+//     lastName: 'Fisher',
+//     age: 18,
+//     listofsubjects: 'English, afrikaans, Maths lit, history, Life science, life orientation, consumers',
+//     address: {
+//         streetNumber: 3,
+//         streetName: 'Clyde Street',
+//         suburb: 'Woodstock',
+//         countryName: 'South Africa'
+//     }
+// }
 
-console.log(information);
+// console.log(information);
+
+//================================================================================================================//
+// Q3
