@@ -1,0 +1,64 @@
+body {
+  margin: auto;
+  margin-top: 11.4rem;
+  text-align: center;
+  background-image: radial-gradient(
+    circle,
+    #3a5452,
+    #324f4c,
+    #2a4947,
+    #224441,
+    #1a3f3c,
+    #194b47,
+    #175853,
+    #12655f,
+    #148981,
+    #13afa4,
+    #0dd6c9,
+    #00ffef
+  );
+  background-repeat: no-repeat;
+  height: 35rem;
+}
+
+.formplace {
+  display: flex;
+  justify-content: center;
+  border: black 3px solid;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  width: 400px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 339px) {
+  input {
+    text-align: center;
+  }
+  label {
+    text-align: center;
+  }
+}
+
+.btn1 {
+  background-color: #0dd6c9;
+  border: #000000 2px solid;
+  color: #1a3f3c;
+  border-radius: 10px;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .formplace {
+    width: auto;
+  }
+}
