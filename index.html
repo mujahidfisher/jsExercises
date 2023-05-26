@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css custom -->
     <link rel="stylesheet" href="./css/style.css">
     <title>js exercise</title>
 </head>
 <body>
-    <form class="formforq3">
+    <center>
+        <!-- number 1 input -->
+    <form id="cal">
         <div class="formplace">
-          <label for="Number">Number 1:</label>
-          <input type="text" id="number1" required>
+          <label   for="Number">Number 1:</label>
+          <input  type="number" id="number1" required>
+</div>
+        <br>
+        <div class="formplace">
+        <!-- operator input -->
+            <label for="output">Operator :</label>
+            <input type="text" id="operator" required>
         </div>
         <br>
         <div class="formplace">
-            <label for="output">Operator:</label>
-            <input type="symbol" onclick= "" id="output" required>
-        </div>
-        <br>
-        <div class="formplace">
+        <!-- number 2 input -->
             <label for="Number">Number 2:</label>
-            <input type="text" id="number1" required>
+            <input type="number" id="number2" required>
         </div>
+    </form>
         <br>
-        <button class="btn1">
+        <!-- output screen thing -->
+        <input id="result" readonly></input>
+        <br>
+        <button class="btn1" id="ans" >
             Display
         </button>
-      </form>
+        
+        <!-- button -->
+    </center>   
+      <!-- js custom -->
     <script src="./script/code.js"></script>
 </body>
 </html>
