@@ -62,30 +62,44 @@
 //================================================================================================================//
 // Q3
 
-// document.querySelector(".btn1").addEventListener("click", function () {
-//   let number1 = parseInt(document.getElementById("number1").value);
-//   let number2 = parseInt(document.getElementById("number2").value);
-//   let operator = document.querySelector("#operator");
-//   let resultDisplay = document.getElementById("result");
+document.querySelector(".btn1").addEventListener("click", function () {
+  let number1 = parseInt(document.getElementById("number1").value);
+  let number2 = parseInt(document.getElementById("number2").value);
+  let operator = document.querySelector("#operator");
+  let resultDisplay = document.getElementById("result");
 
 // operator functions
 
-//   switch (operator.value) {
-//     case "+":
-//       resultDisplay.value = number1 + number2;
-//       break;
-//     case "-":
-//       resultDisplay.value = number1 - number2;
-//       break;
-//     case "*":
-//       resultDisplay.value = number1 * number2;
-//       break;
-//     case "/":
-//       resultDisplay.value = number1 / number2;
-//       break;
-//     default:
-//       console.log("Something missing");
-//   }
-// });
+  switch (operator.value) {
+    case "+":
+      resultDisplay.value = number1 + number2;
+      break;
+    case "-":
+      resultDisplay.value = number1 - number2;
+      break;
+    case "*":
+      resultDisplay.value = number1 * number2;
+      break;
+    case "/":
+      resultDisplay.value = number1 / number2;
+      break;
+    default:
+      console.log("Something missing");
+  }
+});
 
-//================================================================================================================//
+// ================================================================================================================//
+// Q4
+
+let myword = "programming"
+array = myword.split("")
+array.reverse("")
+myword = array.join("")
+console.log(myword);
+
+
+
+
+
+
+
