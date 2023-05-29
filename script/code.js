@@ -38,26 +38,26 @@
 
 // whats you gonna do is initialize a variable with a keyword fullName then you gonna put a string in with your full name in it, then you gonna type consol.log and put the keyword in brakets so that your full name is displayed in the console.
 // code =
-// let fullName = "Mujahid";
-// console.log(fullName);
+let fullName = "Mujahid";
+console.log(fullName);
 
 //================================================================================================================//
 // Q2
-// let information = {
-//   firstName: "Mujahid",
-//   lastName: "Fisher",
-//   age: 18,
-//   listofsubjects:
-//     "English, afrikaans, Maths lit, history, Life science, life orientation, consumers",
-//   address: {
-//     streetNumber: 3,
-//     streetName: "Clyde Street",
-//     suburb: "Woodstock",
-//     countryName: "South Africa",
-//   },
-// };
+let information = {
+  firstName: "Mujahid",
+  lastName: "Fisher",
+  age: 18,
+  listofsubjects:
+    "English, afrikaans, Maths lit, history, Life science, life orientation, consumers",
+  address: {
+    streetNumber: 3,
+    streetName: "Clyde Street",
+    suburb: "Woodstock",
+    countryName: "South Africa",
+  },
+};
 
-// console.log(information);
+console.log(information);
 
 //================================================================================================================//
 // Q3
@@ -97,9 +97,19 @@ array.reverse("")
 myword = array.join("")
 console.log(myword);
 
+// ================================================================================================================//
+// Q5
 
-
-
-
-
-
+let thing1 = [
+  firstName = "Mish-Al",
+  dob = "2001-05-31",
+  age = 2023 - 2001,
+  bday = 31 - 29
+]
+let thing2 = [
+  firstName = "Migel",
+  dob = "2004-05-31",
+  age = 2023 - 2004,
+  bday = 21 - 10
+]
+console.log(thing1, thing2);
