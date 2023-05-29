@@ -38,50 +38,54 @@
 
 // whats you gonna do is initialize a variable with a keyword fullName then you gonna put a string in with your full name in it, then you gonna type consol.log and put the keyword in brakets so that your full name is displayed in the console.
 // code =
-let fullName = "Mujahid";
-console.log(fullName);
+// let fullName = "Mujahid";
+// console.log(fullName);
 
 //================================================================================================================//
 // Q2
-let information = {
-  firstName: "Mujahid",
-  lastName: "Fisher",
-  age: 18,
-  listofsubjects:
-    "English, afrikaans, Maths lit, history, Life science, life orientation, consumers",
-  address: {
-    streetNumber: 3,
-    streetName: "Clyde Street",
-    suburb: "Woodstock",
-    countryName: "South Africa",
-  },
-};
+// let information = {
+//   firstName: "Mujahid",
+//   lastName: "Fisher",
+//   age: 18,
+//   listofsubjects:
+//     "English, afrikaans, Maths lit, history, Life science, life orientation, consumers",
+//   address: {
+//     streetNumber: 3,
+//     streetName: "Clyde Street",
+//     suburb: "Woodstock",
+//     countryName: "South Africa",
+//   },
+// };
 
-console.log(information);
+// console.log(information);
 
 //================================================================================================================//
 // Q3
 
-document.querySelector(".btn1").addEventListener("click", function () {
-  let number1 = parseInt(document.getElementById("number1").value);
-  let number2 = parseInt(document.getElementById("number2").value);
-  let operator = document.querySelector("#operator");
-  let resultDisplay = document.getElementById("result");
-  // operator functions
-  switch (operator.value) {
-    case "+":
-      resultDisplay.value = number1 + number2;
-      break;
-    case "-":
-      resultDisplay.value = number1 - number2;
-      break;
-    case "*":
-      resultDisplay.value = number1 * number2;
-      break;
-    case "/":
-      resultDisplay.value = number1 / number2;
-      break;
-    default:
-      console.log("Something missing");
-  }
-});
+// document.querySelector(".btn1").addEventListener("click", function () {
+//   let number1 = parseInt(document.getElementById("number1").value);
+//   let number2 = parseInt(document.getElementById("number2").value);
+//   let operator = document.querySelector("#operator");
+//   let resultDisplay = document.getElementById("result");
+
+// operator functions
+
+//   switch (operator.value) {
+//     case "+":
+//       resultDisplay.value = number1 + number2;
+//       break;
+//     case "-":
+//       resultDisplay.value = number1 - number2;
+//       break;
+//     case "*":
+//       resultDisplay.value = number1 * number2;
+//       break;
+//     case "/":
+//       resultDisplay.value = number1 / number2;
+//       break;
+//     default:
+//       console.log("Something missing");
+//   }
+// });
+
+//================================================================================================================//
